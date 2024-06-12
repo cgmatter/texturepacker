@@ -10,14 +10,14 @@ The program also calculates the percentage of transparency remaining in the outp
  
 ## Usage
 
-To use the program, you need to have Python installed on your machine along with the necessary libraries (numpy, PIL, tkinter, cv2, and os). Once you have these, you can run the program with your images as input.
+To use the program, you need to have Python installed on your machine.
 
 ## Future Work
 
-The current version of the program only supports one type of packing algorithm. More packing methods exist. You can search for strip packing algorithms.
-I'd love to impliment a toggle to allow for textures to be rotated for best fit.
-Each independant check can be run in it's own thread, and output their fit and image. This would wildly speed up the dynamic fit biasing, but I was afraid it might mess up the exe.
-The loading bar only updates with the progress of the first scale check. I don't care enough to fix.
+- The current version of the program only supports one type of packing algorithm. More packing methods exist. You can search for strip packing algorithms.
+- I'd love to impliment a toggle to allow for textures to be rotated for best fit.
+- Each independant check can be run in it's own thread, and output their fit and image. This would wildly speed up the dynamic fit biasing, but I was afraid it might mess up the exe.
+- The loading bar only updates with the progress of the first scale check. I don't care enough to fix.
 
 ## Contributions
 
