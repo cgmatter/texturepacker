@@ -1,0 +1,11 @@
+# .gitignore
+
+# Ignore the build directory and its contents
+/build/
+/build/*
+
+# Ignore the dist directory and its contents
+/dist/
+/dist/*
+# Ignore TexturePacker_V3.spec
+TexturePacker_V3.spec
